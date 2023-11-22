@@ -13,11 +13,17 @@ h1 {
 }
 
 input, #answerTag {
-    display: block; /* Make input elements block-level */
-    width: 50%; /* Make input elements take up full width */
+
+   /* Make input elements block-level */ 
+   display: block; 
+
+   /* Make input elements take up full width */ 
+   width: 50%; 
     padding: 10px;
     text-align: center;
-    margin: 10px auto; /* Center the input elements */
+
+   /* Center the input elements */ 
+   margin: 10px auto; 
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -31,6 +37,8 @@ button {
     cursor: pointer;
 }
 
+/*button hover effect*/
+
 button:hover {
     background-color: #45a049;
 }
@@ -41,7 +49,7 @@ span {
     font-weight: bold;
 }
 
-/* Responsive Styles */
+/* Responsive code to make the screen changes sizes */
 @media (max-width: 600px) {
     body {
         padding: 10px;
