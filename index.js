@@ -18,3 +18,4 @@ let btnMulti=document.querySelector('[data-calc]')
 
 //calling a click function. so that when the button is clicked that it accesses the area function
 btnMulti.addEventListener('click',area)
+document.querySelector("[data-display]").readOnly = true;
